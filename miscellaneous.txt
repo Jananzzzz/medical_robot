@@ -1,0 +1,31 @@
+# paddlepaddle speech
+https://github.com/PaddlePaddle/PaddleSpeech
+# paddlepaddle version
+# tts paddlepaddle==2.5.1
+# asr paddlepaddle=2.4.2 numpy==1.21.6
+
+# faiss
+# numpy==1.25.2
+
+# check your raspberry pi is 32 bit or 64 bit
+https://github.com/conda-forge/miniforge/issues/440
+https://lindevs.com/check-whether-raspberry-pi-os-is-32-bit-or-64-bit
+'''getconf LONG_BIT'''
+# it will show 32 or 64
+
+# uname
+# uname -a
+# uname -mi
+
+# numpy‘ has no attribute ‘complex‘.
+https://blog.csdn.net/qq_15821487/article/details/130842655
+# often this kinds of problem comes from version incompatible
+
+# when installing pyaudio, pip cannot find portaudio.h in /usr/local/include
+https://stackoverflow.com/questions/33513522/when-installing-pyaudio-pip-cannot-find-portaudio-h-in-usr-local-include
+
+# usb drive store format
+# default fat32 format can move big files
+# convert the usb drive store format to ntfs
+https://zhuanlan.zhihu.com/p/46713221
+
